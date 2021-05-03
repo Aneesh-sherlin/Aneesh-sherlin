@@ -36,11 +36,26 @@ ul {
 h3 {
   color: #ffb300;
   margin: 10px 0;
+  text-transform: lowercase;
   font-size: 1.25em;
 }
-
+.download {
+  color:#283593 !important;
+}
+.file{
+  text-align: center;
+  margin-top: 20px;
+}
+.button {
+  border: none;
+  margin: 0 auto;
+  background-color: #ffb300;
+  width: 170px;
+  padding: 10px;
+  border-radius: 20px;
+}
 .resume {
-  width: 1024px;
+  width: 960px;
   background: #1a237e;
   color: #ffffff;
   margin: 20px auto;
@@ -110,13 +125,6 @@ h3 {
   color: #283593;
 }
 
-/* .resume .base .profile .fa-laptop-code {
-  font-size: 100px;
-  text-align: center;
-  margin: auto;
-  color: #283593;
-} */
-
 .resume .base .profile .info {
   text-align: center;
   color: #ffffff;
@@ -126,6 +134,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.75em;
+  text-transform: lowercase;
   color: #1a237e;
 }
 
@@ -133,6 +142,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.5em;
+  text-transform: lowercase;
   color: #283593;
 }
 
@@ -363,6 +373,7 @@ h3 {
   width: 48%;
   background: #283593;
   padding: 15px;
+  margin-bottom: 15px;
 }
 
 .resume .func .skills-prog {
